@@ -158,6 +158,7 @@
         <Rule Id="SA1518"  Action="Warning" />          <!-- Use line endings correctly at end of file -->
         <Rule Id="SA1519"  Action="Warning" />          <!-- Braces should not be omitted from multi-line child statement -->
         <Rule Id="SA1520"  Action="Warning" />          <!-- Use braces consistently -->
+        <Rule Id="SA1520"  Action="None" />             <!-- Use line endings consistently -->
     </Rules>
 	
     <Rules AnalyzerId="StyleCop.Analyzers" RuleNamespace="StyleCop.Analyzers.DocumentationRules">

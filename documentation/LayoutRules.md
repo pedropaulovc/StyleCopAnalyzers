@@ -24,3 +24,4 @@ Identifier | Name | Description
 [SA1518](SA1518.md) | UseLineEndingsCorrectlyAtEndOfFile | The line endings at the end of a file do not match the settings for the project. 
 [SA1519](SA1519.md) | BracesMustNotBeOmittedFromMultiLineChildStatement | The opening and closing braces for a multi-line C# statement have been omitted. 
 [SA1520](SA1520.md) | UseBracesConsistently | The opening and closing braces of a chained `if`/`else if`/`else` construct were included for some clauses, but omitted for others.
+[SA1521](SA1521.md) | UseLineEndingingsConsistently | The line endings of a file do not match the settings for the project.

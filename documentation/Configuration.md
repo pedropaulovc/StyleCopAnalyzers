@@ -418,6 +418,7 @@ The following properties are used to configure layout rules in StyleCop Analyzer
 | --- | --- | --- | --- |
 | `newlineAtEndOfFile` | `"allow"` | 1.0.0 | Specifies the handling for newline characters which appear at the end of a file |
 | `allowConsecutiveUsings` | `true` | 1.1.0 | Specifies if SA1519 will allow consecutive using statements without braces |
+| `lineEnding` | `\n` | 1.2.0 | Specifies the desired line ending that SA1521 should enforce |
 
 ### Lines at End of File
 
@@ -438,6 +439,15 @@ The `allowConsecutiveUsings` property specifies the behavior:
 
 This only allows omitting the braces for a using followed by another using statement. A using statement followed by any other type of statement will still
 require braces to used.
+
+### Consistent line endings
+
+The behavior of [SA1521](SA1521.md) can be customized regarding which line ending should be used.
+The `lineEnding` property specifies the behavior:
+
+* `\n`: enforces Unix style line endings
+* `\r\n`: enforces Windows style line endings
+* `\r`: enforces macOS style line endings
 
 ## Documentation Rules
 

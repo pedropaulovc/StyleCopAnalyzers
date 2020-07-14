@@ -906,5 +906,41 @@ namespace StyleCop.Analyzers.LayoutRules {
                 return ResourceManager.GetString("SA1520Title", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Normalize line endings.
+        /// </summary>
+        internal static string SA1521CodeFix {
+            get {
+                return ResourceManager.GetString("SA1521CodeFix", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File has mixed line endings.
+        /// </summary>
+        internal static string SA1521Description {
+            get {
+                return ResourceManager.GetString("SA1521Description", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Code should use consistent line endings.
+        /// </summary>
+        internal static string SA1521MessageFormat {
+            get {
+                return ResourceManager.GetString("SA1521MessageFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Use line endings consistently.
+        /// </summary>
+        internal static string SA1521Title {
+            get {
+                return ResourceManager.GetString("SA1521Title", resourceCulture);
+            }
+        }
     }
 }
